@@ -63,7 +63,7 @@ const Comments = () => {
                 { required: true, message: "Please input your nickname!" },
               ]}
             >
-              <input className="rounded-md w-fit" />
+              <input className="rounded-md w-full text-5xl" />
             </Form.Item>
 
             <Form.Item<any>
@@ -73,7 +73,7 @@ const Comments = () => {
                 { required: true, message: "Please input your comment!" },
               ]}
             >
-              <textarea className="resize-none h-[250px] rounded-md w-full" />
+              <textarea className="resize-none h-[250px] rounded-md w-full text-5xl" />
             </Form.Item>
           </div>
           <Form.Item>
