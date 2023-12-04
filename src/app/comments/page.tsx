@@ -37,7 +37,7 @@ const Comments = () => {
   ];
 
   return (
-    <div className="h-full bg-cover bg-center bg-tech2 ">
+    <div className="h-full bg-cover bg-center bg-tech2">
       <div className="bg-indigo-500 w-fit p-5 rounded-lg">
         <h1>
           Leave your comment here below, i will be glad to hear from you and
@@ -63,7 +63,7 @@ const Comments = () => {
                 { required: true, message: "Please input your nickname!" },
               ]}
             >
-              <input className="rounded-md" />
+              <input className="rounded-md w-fit" />
             </Form.Item>
 
             <Form.Item<any>
@@ -73,7 +73,7 @@ const Comments = () => {
                 { required: true, message: "Please input your comment!" },
               ]}
             >
-              <textarea className="resize-none h-[250px] rounded-md" />
+              <textarea className="resize-none h-[250px] rounded-md w-full" />
             </Form.Item>
           </div>
           <Form.Item>
