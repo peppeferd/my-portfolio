@@ -19,7 +19,7 @@ const Contactoo: FC = () => {
   }
 
   return (
-    <div className="h-screen bg-cover bg-center bg-tech2">
+    <div className="h-full bg-cover bg-center bg-tech2">
       <div className="bg-indigo-500 text-center p-16 text-3xl">
         <h1 className="mb-6">Contact me</h1>
         <p>
