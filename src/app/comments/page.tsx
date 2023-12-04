@@ -54,7 +54,8 @@ const Comments = () => {
           onFinish={onSubmit}
           autoComplete="off"
         >
-          <div className="bg-gray-200 w-fit rounded-lg px-7 py-10">
+          <div className="bg-gray-200 w-fit p-3 rounded-lg mt-3">
+           
             <Form.Item<any>
               label="Insert your nickname"
               name="name"
