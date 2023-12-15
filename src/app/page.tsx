@@ -35,8 +35,8 @@ export default function Home() {
           <Image
             className="m-10"
             src={homepic1}
-           width={300}
-           height={300}
+            width={300}
+            height={300}
             alt="homepic"
           />
         </div>
@@ -100,14 +100,6 @@ export default function Home() {
             className="mt-3"
           >
             <AiFillInstagram />
-          </a>
-          <a
-            href="https://www.facebook.com/peppe.ferlazzo/"
-            target="_blank"
-            rel="noreferrer"
-            className="mt-3"
-          >
-            <FaFacebook />
           </a>
         </div>
       </div>
