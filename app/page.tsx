@@ -11,7 +11,7 @@ export default function Home() {
     <div className="h-full bg-gradient-to-r from-green-500 to-indigo-500">
       <div className="flex flex-wrap justify-around py-6 gap-10">
         <Image src={homepic1} width={350} height={350} alt="home1" />
-        <div className="text-yellow-200 text-3xl justify-center items-center my-auto">
+        <div className="text-yellow-200 text-2xl justify-center items-center my-auto">
           <Typewriter
             options={{
               strings: [

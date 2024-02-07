@@ -41,7 +41,7 @@ export default function page() {
             <Image src={aboutpic1} alt="aboutpic" />
           </div> */}
         </div>
-        <div className="bg-indigo-300 w-fit rounded-lg mt-5 text-2xl px-3">
+        <div className="bg-indigo-200 w-fit rounded-lg mt-5 text-2xl px-6 py-2">
           <p>
             Hi everyone, I am Giuseppe Ferlazzo from Furci Siculo, Italy. I am a
             development passionate with a Master Degree in Blockchain. I
@@ -77,7 +77,7 @@ export default function page() {
             Professional <strong>Skillset </strong> and tools i use:
           </h1>
 
-          <div className="flex flex-wrap max-w-screen text-9xl bg-indigo-300 py-6 my-5 rounded-lg items-center justify-center space-x-2 space-y-6">
+          <div className="flex flex-wrap max-w-screen text-9xl bg-indigo-200 py-6 my-5 rounded-lg items-center justify-center space-x-2 space-y-6">
             <SiSolidity />
 
             <SiTypescript />
@@ -103,7 +103,7 @@ export default function page() {
           <h1 className="bg-gray-600 rounded-lg text-white w-fit p-3">
             Days i code
           </h1>
-          <div className="flex flex-initial items-center justify-center bg-indigo-300 rounded-lg max-w-screen py-6 ">
+          <div className="flex flex-initial items-center justify-center bg-indigo-200 rounded-lg max-w-screen py-6 ">
             <GitHubCalendar
               username="peppeferd"
               blockSize={15}

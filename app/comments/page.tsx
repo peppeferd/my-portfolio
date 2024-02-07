@@ -42,6 +42,11 @@ const Comments = () => {
 
   return (
     <div className="h-full min-h-screen bg-gradient-to-r from-green-500 to-indigo-500">
+      <div className="items-center justify-center flex">
+        <h1 className="text-center bg-indigo-200 p-6 w-fit text-2xl rounded-lg mt-6">
+          Feel free to leave your comment if you wish to
+        </h1>
+      </div>
       <div className="flex flex-col py-6">
         <Form
           name="basic"

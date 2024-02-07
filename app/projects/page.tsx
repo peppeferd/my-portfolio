@@ -14,7 +14,7 @@ const page = () => {
         enjoy you a lot 😀
       </h1>
       <div className="flex flex-wrap justify-around py-6">
-        <div className="bg-indigo-300 rounded-lg p-3 mt-6 w-fit flex flex-col">
+        <div className="bg-indigo-200 rounded-lg p-3 mt-6 w-fit flex flex-col">
           <h1 className="bg-gray-500 text-white w-fit rounded-lg p-5 lg:text-2xl md:text-2xl sm:text-xl mb-3">
             AI Blog Post Writer
           </h1>
@@ -39,7 +39,7 @@ const page = () => {
             instruct the AI, and eventually a title for the post too.
           </p>
         </div>
-        <div className="bg-indigo-300 rounded-lg p-3 mt-6 w-fit flex flex-col">
+        <div className="bg-indigo-200 rounded-lg p-3 mt-6 w-fit flex flex-col">
           <h1 className="bg-gray-500 text-white w-fit rounded-lg p-5 lg:text-2xl md:text-2xl sm:text-xl mb-3">
             E-commerce
           </h1>
@@ -64,7 +64,7 @@ const page = () => {
             kind of clothes!
           </p>
         </div>
-        <div className="bg-indigo-300 rounded-lg p-3 mt-6 w-fit flex flex-col">
+        <div className="bg-indigo-200 rounded-lg p-3 mt-6 w-fit flex flex-col">
           <h1 className="bg-gray-500 text-white w-fit rounded-lg p-5 lg:text-2xl md:text-2xl sm:text-xl mb-3">
             Donation Web App
           </h1>
