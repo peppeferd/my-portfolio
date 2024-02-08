@@ -26,6 +26,8 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiAdobephotoshop,
+  SiAlchemy,
+  SiOpenzeppelin,
 } from 'react-icons/si'
 export default function page() {
   return (
@@ -96,6 +98,8 @@ export default function page() {
             <DiReact />
             <SiTailwindcss />
             <SiCodepen />
+            <SiOpenzeppelin />
+            <SiAlchemy />
             <SiVisualstudiocode />
             <SiPostman />
           </div>
