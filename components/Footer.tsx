@@ -9,8 +9,7 @@ class Footer extends Component {
       <div id="section_footer">
         <div className="text-center py-6 bg-gradient-to-r from-sky-500 to-indigo-500">
           <p className="text-yellow-200">
-            Copyright © {current_year} Isaiah Orphanage Center. All Rights
-            Reserved.
+            Copyright © {current_year} Giuseppe Ferlazzo.
           </p>
         </div>
       </div>
