@@ -107,13 +107,13 @@ export default function page() {
           <h1 className="bg-gray-600 rounded-lg text-white w-fit p-3">
             Days i code
           </h1>
-          <div className="flex flex-initial items-center justify-center bg-indigo-200 rounded-lg max-w-screen py-6 ">
+          <div className="flex flex-initial items-center justify-center bg-indigo-200 rounded-lg lg:w-[100%] sm:w-fit py-6 ">
             <GitHubCalendar
               username="peppeferd"
-              blockSize={15}
-              blockMargin={5}
+              /*  blockSize={15}
+              blockMargin={5} */
               colorScheme="light"
-              fontSize={16}
+              /* fontSize={16} */
             />
           </div>
         </div>
