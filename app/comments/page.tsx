@@ -70,7 +70,7 @@ const Comments = () => {
             name="comment"
             rules={[{ required: true, message: 'Please input your comment!' }]}
           >
-            <TextArea />
+            <TextArea className="w-80 rounded-md" />
           </Form.Item>
 
           <Form.Item>
