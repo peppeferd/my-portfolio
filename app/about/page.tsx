@@ -23,11 +23,11 @@ import Link from 'next/link'
 const About = () => {
   return (
     <div className="bg-gradient-to-r from-gray-100 to-green-600 min-h-screen text-3xl pt-36">
-      <h1 className="mx-auto p-4 bg-blue-600 text-white max-w-fit mb-9 rounded-full">
+      <h1 className="mx-auto text-center p-4 bg-blue-600 text-white max-w-fit mb-9 rounded-full">
         Some info about my work and skills
       </h1>
       <div>
-        <h1 className="bg-blue-600 w-fit mx-2 rounded-md p-3">
+        <h1 className="bg-blue-600 w-fit mx-2 rounded-md p-3 text-center">
           Some of the technologies and tools i use are:
         </h1>
         <div className="flex flex-wrap justify-around text-green-800  mx-2 text-9xl mt-10 gap-10 ">
@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col mx-2">
-        <h1 className="bg-blue-600 w-fit my-10 rounded-md p-3">
+        <h1 className="bg-blue-600 w-fit my-10 rounded-md p-3 ">
           Download resume
         </h1>
         <div className="flex flex-row gap-5 mb-10">

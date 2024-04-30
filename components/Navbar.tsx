@@ -1,10 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import {
-  BookOpenIcon,
-  Bars3BottomRightIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/solid'
+import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 import { FaLaptopCode } from 'react-icons/fa6'
 import { useRouter } from 'next/navigation'
 const Navbar = () => {
@@ -15,6 +11,7 @@ const Navbar = () => {
     { name: 'CONTACT', link: '/contact' },
   ]
   let [open, setOpen] = useState(false)
+
   const router = useRouter()
   return (
     <div className="shadow-2xl w-full fixed top-0 left-0">
@@ -38,6 +35,7 @@ const Navbar = () => {
         </div>
         {/* linke items */}
         <ul
+          key={1}
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static shadow-2xl bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? 'top-12' : 'hidden'
           }`}

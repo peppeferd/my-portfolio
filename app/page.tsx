@@ -3,13 +3,14 @@ import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
 import homepic1 from '../public/assets/app-development.png'
 import homepic2 from '../public/assets/app-development(1).png'
-import homepic3 from '../public/assets/avatar.svg'
 import { useEffect, useState } from 'react'
 import Loader from '@/components/Loader'
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
+
 export default function Home() {
   const [isClient, setIsClient] = useState(false)
+
   useEffect(() => {
     setIsClient(true)
   }, [])
