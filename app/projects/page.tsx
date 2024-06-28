@@ -44,7 +44,7 @@ const Projects = () => {
         <a
           className="underline"
           target="_blank"
-          href="https://isaiahorphanagecenter.com"
+          href="https://isaiahorphanagecenter.org"
         >
           <h1 className="m-3">Isaiah Orphanage Center</h1>
         </a>
